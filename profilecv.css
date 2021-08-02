@@ -1,0 +1,66 @@
+BODY {
+font-family: Verdana, Arial Cyr, Arial;
+/*font-size: 10pt;*/
+background-image: url(../images/pattern-grey.jpg); /* Путь к фоновому рисунку */
+background-repeat: repeat; /* Повторяем фон по горизонтали */
+}
+
+header {
+	text-align: center;
+}
+
+.mono {
+	font-family: monospace;
+}
+
+.vac_position {
+	background: gray;
+	color: lightgray;
+}
+
+article header {
+	padding: 0 20%;
+}
+
+/*выровнять таблицу по центру:
+-задать ширину через width;
+-margin: auto;
+table {
+	width:80%;
+	margin: auto;
+}*/
+
+.part {
+	text-align: center;	
+}
+
+table {
+	width:80%;
+	margin: auto;
+}
+
+td {
+	padding: 5pt 0;
+}
+
+.subunit {
+	font-weight: bold;
+	text-align: right;
+	padding-right: 30pt;
+}
+
+.desc_experience {
+	padding: 0 10%;
+	text-align: justify;	
+}
+
+.edu {
+	text-align: center;
+	padding: 5pt 0;	
+}
+
+footer {
+	text-align: center;
+	color: gray;
+	padding: 10pt 0;	
+}
